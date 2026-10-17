@@ -33,7 +33,7 @@ class NormalizeSidraPayloadTests(unittest.TestCase):
         self.assertEqual(nova["status_valor"], "não disponível")
 
     def test_rejects_duplicate_keys(self):
-        with self.assertRaisesRegex(ValueError, "chaves duplicadas"):
+        with self.assertRaisesRegex(ValueError, "(?i)chaves duplicadas"):
             normalize_sidra_payload(self.payload + [self.payload[1]], self.municipalities)
 
     def test_rejects_unconfigured_municipality(self):
