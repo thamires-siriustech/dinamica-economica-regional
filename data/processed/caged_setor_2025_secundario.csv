@@ -1,0 +1,18 @@
+codigo_ibge,municipio,uf,ano,setor_agregado,admissoes,desligamentos,saldo,fonte,url_fonte,status,data_referencia_coleta
+5105259,Lucas do Rio Verde,MT,2025,Construção Civil,6272,5419,853,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/lucas-do-rio-verde/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5105259,Lucas do Rio Verde,MT,2025,Serviços,7306,6711,595,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/lucas-do-rio-verde/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5105259,Lucas do Rio Verde,MT,2025,Indústria,5372,5166,206,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/lucas-do-rio-verde/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5105259,Lucas do Rio Verde,MT,2025,Comércio,6145,6023,122,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/lucas-do-rio-verde/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5105259,Lucas do Rio Verde,MT,2025,Agropecuária,2881,2847,34,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/lucas-do-rio-verde/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5105259,Lucas do Rio Verde,MT,2025,Administração Pública,0,7,-7,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/lucas-do-rio-verde/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5107925,Sorriso,MT,2025,Serviços,9765,9251,514,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/sorriso/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5107925,Sorriso,MT,2025,Indústria,4845,4533,312,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/sorriso/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5107925,Sorriso,MT,2025,Agropecuária,4660,4414,246,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/sorriso/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5107925,Sorriso,MT,2025,Administração Pública,26,20,6,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/sorriso/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5107925,Sorriso,MT,2025,Comércio,9084,9123,-39,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/sorriso/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5107925,Sorriso,MT,2025,Construção Civil,3139,3307,-168,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/sorriso/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5106224,Nova Mutum,MT,2025,Serviços,5782,5353,429,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/nova-mutum/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5106224,Nova Mutum,MT,2025,Construção Civil,1915,1801,114,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/nova-mutum/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5106224,Nova Mutum,MT,2025,Agropecuária,3579,3495,84,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/nova-mutum/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5106224,Nova Mutum,MT,2025,Comércio,4038,3974,64,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/nova-mutum/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
+5106224,Nova Mutum,MT,2025,Indústria,2705,2719,-14,Mapa do Emprego (Coalize),https://dados.coalize.com.br/mapa-do-emprego/cidade/mt/nova-mutum/2025,piloto_secundario_a_validar_com_microdados_MTE,2026-10-16
