@@ -1,0 +1,30 @@
+{
+  "status": "base_secundaria_piloto_nao_reconciliada_com_sidra",
+  "rows": 66,
+  "expected_rows": 66,
+  "municipalities": [
+    "Lucas do Rio Verde",
+    "Nova Mutum",
+    "Sorriso"
+  ],
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "crops": [
+    "milho em grão",
+    "soja"
+  ],
+  "unique_keys": 66,
+  "source_note": "Páginas secundárias que declaram IBGE/PAM tabela 1612; validação oficial pendente.",
+  "monetary_values": "nominais; não interpretar variação como crescimento real sem deflator"
+}
