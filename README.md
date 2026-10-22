@@ -39,6 +39,16 @@ O piloto de emprego formal de 2025 também usa páginas secundárias que declara
 
 Essas bases são exploratórias e não devem ser apresentadas como extrações oficiais já validadas. Os números, fontes e limitações estão descritos nos relatórios em `reports/outputs/` e nos documentos de `docs/`.
 
+## Kit inicial de Power BI
+
+Adicionei uma pasta `powerbi/` com medidas DAX, instruções para importar a base e montar os visuais, e uma prévia estática de layout:
+
+- [Guia para montar o dashboard no Power BI Desktop](powerbi/README.md)
+- [Medidas DAX iniciais](powerbi/medidas_emprego.dax)
+- [Prévia visual estática do dashboard](powerbi/dashboard_preview.svg)
+
+O kit usa os dados secundários de emprego de 2025 já documentados neste projeto. **Ainda não contém um arquivo `.pbix` criado e validado no Power BI Desktop.** A prévia SVG serve apenas para ilustrar a composição pretendida, e os valores devem continuar rotulados como exploratórios até serem reconciliados com os microdados oficiais.
+
 ## Estrutura
 
 - `config/`: municípios analisados
@@ -49,6 +59,7 @@ Essas bases são exploratórias e não devem ser apresentadas como extrações o
 - `data/processed/`: pequenas bases tratadas e pilotos com proveniência documentada
 - `reports/`: tabelas derivadas e gráficos
 - `docs/`: fontes, dicionário de dados, plano de análise e proposta para Power BI
+- `powerbi/`: medidas DAX, guia de montagem e prévia estática do dashboard
 
 ## Como executar
 
@@ -56,7 +67,7 @@ Requer Python 3.10 ou superior.
 
 ```bash
 python -m venv .venv
-# Windows PowerShell: .venv\\Scripts\\Activate.ps1
+# Windows PowerShell: .venv\Scripts\Activate.ps1
 # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 python -m unittest discover -s tests -v
@@ -64,7 +75,7 @@ python src/collect_pam.py
 python src/analyze_pam.py
 ```
 
-Em Windows PowerShell, também é possível executar `powershell -ExecutionPolicy Bypass -File .\\scripts\\executar_pipeline.ps1`. A análise da PAM só deve ser executada após uma coleta oficial válida.
+Em Windows PowerShell, também é possível executar `powershell -ExecutionPolicy Bypass -File .\scripts\executar_pipeline.ps1`. A análise da PAM só deve ser executada após uma coleta oficial válida.
 
 A base secundária pode ser reproduzida separadamente com:
 
@@ -89,4 +100,4 @@ Essa etapa não consulta a internet e não converte dados secundários em dados 
 1. Executar e conferir a coleta oficial da PAM.
 2. Conciliar a série de emprego com microdados oficiais do MTE.
 3. Harmonizar as séries temporal e metodologicamente.
-4. Construir dashboard no Power BI após validar os dados.
+4. Construir e salvar o arquivo interativo no Power BI Desktop após validar os dados.
