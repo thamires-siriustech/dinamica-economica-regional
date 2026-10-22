@@ -1,7 +1,11 @@
 -- Dinâmica Econômica Regional
--- Modelo esperado: tabela "Emprego", importada de
+-- Base atual: piloto secundário de emprego formal, ano de 2025.
+-- Tabela esperada: "Emprego", importada de
 -- data/processed/caged_resumo_municipal_2025_secundario.csv
--- Crie cada medida abaixo separadamente em Modelagem > Nova medida.
+--
+-- No Power BI Desktop: Modelagem > Nova medida.
+-- Crie cada medida individualmente. Os nomes das colunas devem corresponder
+-- aos nomes presentes no CSV. Consulte powerbi/README.md para instruções.
 
 Total de Admissões =
     SUM ( Emprego[admissoes] )
@@ -9,5 +13,29 @@ Total de Admissões =
 Total de Desligamentos =
     SUM ( Emprego[desligamentos] )
 
-Saldo de Empregos =
+Saldo Calculado =
     [Total de Admissões] - [Total de Desligamentos]
+
+Saldo Informado =
+    SUM ( Emprego[saldo] )
+
+Diferença entre Saldo Informado e Calculado =
+    [Saldo Informado] - [Saldo Calculado]
+
+Municípios no Recorte =
+    DISTINCTCOUNT ( Emprego[municipio] )
+
+Admissões por 1.000 Habitantes =
+    DIVIDE (
+        [Total de Admissões],
+        SUM ( Emprego[populacao_estimada] )
+    ) * 1000
+
+Participação no Saldo Total (%) =
+    DIVIDE (
+        [Saldo Calculado],
+        CALCULATE (
+            [Saldo Calculado],
+            ALL ( Emprego[municipio] )
+        )
+    )
