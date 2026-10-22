@@ -49,6 +49,7 @@ Adicionei uma pasta `powerbi/` com medidas DAX, instruções para importar a bas
 
 - [Guia para montar o dashboard no Power BI Desktop](powerbi/README.md)
 - [Medidas DAX iniciais](powerbi/medidas_emprego.dax)
+- [Explicação e validação das medidas DAX](powerbi/dax_explicadas.md)
 - [Prévia visual estática do dashboard](powerbi/dashboard_preview.svg)
 
 O kit usa os dados secundários de emprego de 2025 já documentados neste projeto. **Ainda não contém um arquivo `.pbix` criado e validado no Power BI Desktop.** A prévia SVG serve apenas para ilustrar a composição pretendida, e os valores devem continuar rotulados como exploratórios até serem reconciliados com os microdados oficiais.
