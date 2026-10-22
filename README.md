@@ -39,6 +39,10 @@ O piloto de emprego formal de 2025 também usa páginas secundárias que declara
 
 Essas bases são exploratórias e não devem ser apresentadas como extrações oficiais já validadas. Os números, fontes e limitações estão descritos nos relatórios em `reports/outputs/` e nos documentos de `docs/`.
 
+## Estratégia de portfólio para vagas de dados
+
+Consulte o [plano de portfólio alinhado a vagas de Dados e BI](docs/portfolio_roadmap.md), que resume competências observadas em anúncios remotos, uma metodologia de ponta a ponta, projetos prioritários e um checklist de qualidade.
+
 ## Kit inicial de Power BI
 
 Adicionei uma pasta `powerbi/` com medidas DAX, instruções para importar a base e montar os visuais, e uma prévia estática de layout:
