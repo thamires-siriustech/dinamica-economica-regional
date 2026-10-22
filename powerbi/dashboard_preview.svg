@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Prévia do dashboard Dinâmica Econômica Regional</title>
+  <desc id="desc">Prévia estática de indicadores de emprego de 2025 para Lucas do Rio Verde, Sorriso e Nova Mutum. Os dados são exploratórios e pendentes de validação oficial.</desc>
+  <rect width="1200" height="760" fill="#f3f6fa"/>
+  <rect x="0" y="0" width="1200" height="150" fill="#14263d"/>
+  <rect x="0" y="145" width="1200" height="5" fill="#29b6a6"/>
+  <text x="54" y="51" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="2" fill="#8fe3d8">PORTFÓLIO • POWER BI</text>
+  <text x="54" y="93" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="700" fill="#ffffff">Dinâmica Econômica Regional</text>
+  <text x="54" y="123" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#d4dfeb">Mercado de trabalho formal • 2025 • Mato Grosso</text>
+  <rect x="930" y="36" width="216" height="44" rx="22" fill="#f5c56b"/>
+  <text x="1038" y="63" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#3c2b0b">PILOTO EXPLORATÓRIO</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="54" y="185" width="350" height="145" rx="14" fill="#ffffff" stroke="#e0e7ef"/>
+    <rect x="54" y="185" width="7" height="145" rx="3" fill="#2aa89a"/>
+    <text x="82" y="221" font-size="15" font-weight="600" fill="#5e6b7c">TOTAL DE ADMISSÕES</text>
+    <text x="82" y="276" font-size="37" font-weight="700" fill="#14263d">77.514</text>
+    <text x="82" y="305" font-size="13" fill="#718096">Soma dos 3 municípios</text>
+    <rect x="425" y="185" width="350" height="145" rx="14" fill="#ffffff" stroke="#e0e7ef"/>
+    <rect x="425" y="185" width="7" height="145" rx="3" fill="#6684b5"/>
+    <text x="453" y="221" font-size="15" font-weight="600" fill="#5e6b7c">TOTAL DE DESLIGAMENTOS</text>
+    <text x="453" y="276" font-size="37" font-weight="700" fill="#14263d">74.163</text>
+    <text x="453" y="305" font-size="13" fill="#718096">Soma dos 3 municípios</text>
+    <rect x="796" y="185" width="350" height="145" rx="14" fill="#ffffff" stroke="#e0e7ef"/>
+    <rect x="796" y="185" width="7" height="145" rx="3" fill="#e6a444"/>
+    <text x="824" y="221" font-size="15" font-weight="600" fill="#5e6b7c">SALDO CALCULADO</text>
+    <text x="824" y="276" font-size="37" font-weight="700" fill="#16786f">+3.351</text>
+    <text x="824" y="305" font-size="13" fill="#718096">Admissões menos desligamentos</text>
+  </g>
+  <rect x="54" y="356" width="1092" height="313" rx="14" fill="#ffffff" stroke="#e0e7ef"/>
+  <text x="84" y="395" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#14263d">Saldo de empregos por município</text>
+  <text x="84" y="421" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#718096">Saldo calculado = admissões − desligamentos • valores exploratórios de 2025</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#304158">
+    <text x="84" y="472">Lucas do Rio Verde</text>
+    <text x="84" y="535">Sorriso</text>
+    <text x="84" y="598">Nova Mutum</text>
+  </g>
+  <g>
+    <rect x="300" y="450" width="650" height="30" rx="6" fill="#edf2f7"/>
+    <rect x="300" y="450" width="650" height="30" rx="6" fill="#2aa89a"/>
+    <rect x="300" y="513" width="650" height="30" rx="6" fill="#edf2f7"/>
+    <rect x="300" y="513" width="314" height="30" rx="6" fill="#2aa89a"/>
+    <rect x="300" y="576" width="650" height="30" rx="6" fill="#edf2f7"/>
+    <rect x="300" y="576" width="244" height="30" rx="6" fill="#2aa89a"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#14263d">
+    <text x="972" y="471">+1.803</text>
+    <text x="636" y="534">+871</text>
+    <text x="566" y="597">+677</text>
+  </g>
+  <line x1="84" y1="632" x2="1116" y2="632" stroke="#e5ebf2"/>
+  <text x="84" y="653" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#68788d">Prévia estática de layout — não é uma captura nem um arquivo PBIX do Power BI.</text>
+  <text x="54" y="703" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#9a5c13">NOTA METODOLÓGICA</text>
+  <text x="54" y="728" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#526174">Fonte secundária atribuída ao Novo CAGED/MTE. Os dados ainda precisam ser conciliados com os microdados oficiais.</text>
+</svg>
