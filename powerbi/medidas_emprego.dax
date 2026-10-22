@@ -1,0 +1,13 @@
+-- Dinâmica Econômica Regional
+-- Modelo esperado: tabela "Emprego", importada de
+-- data/processed/caged_resumo_municipal_2025_secundario.csv
+-- Crie cada medida abaixo separadamente em Modelagem > Nova medida.
+
+Total de Admissões =
+    SUM ( Emprego[admissoes] )
+
+Total de Desligamentos =
+    SUM ( Emprego[desligamentos] )
+
+Saldo de Empregos =
+    [Total de Admissões] - [Total de Desligamentos]
